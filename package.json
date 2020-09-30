@@ -1,0 +1,25 @@
+{
+  "name": "discovery-artifact-manager",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "The Discovery Artifact Manager is intended to facilitate testing, publishing, and synchronization of generators and artifacts for client libraries and generated code samples of Google APIs defined by the API Discovery Service.",
+  "main": "update-discovery.js",
+  "scripts": {
+    "update-discovery": "node update-discovery.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinBeckwith/discovery-artifact-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinBeckwith/discovery-artifact-manager/issues"
+  },
+  "homepage": "https://github.com/JustinBeckwith/discovery-artifact-manager#readme",
+  "dependencies": {
+    "gaxios": "^3.2.0",
+    "p-queue": "^6.6.1"
+  }
+}
